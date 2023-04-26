@@ -1,0 +1,147 @@
+/* CSS Document */
+
+/*
+#00568c - Blue
+#008e66 - Green
+#ffffff - White
+#cccccc - Grey
+#00568c99 - Blue Fade
+#008e6699 - Green Fade
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #cccccc;
+	margin: 2%;
+}
+
+/*Nav Section*/
+
+#f a {
+	color: #000;
+}
+
+.logo {
+	width: 25%;
+	height: 25%;
+}
+
+.image {
+	width: 40em;
+	height: 40em;
+	display: block;
+	margin: 0 auto;
+}
+
+.leaders {
+	width: 80em;
+	height: 30em;
+	display: block;
+	margin: 0 auto;
+}
+
+nav {
+	display: block;
+	padding: 3%;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: #00568c99;
+}
+
+nav li {
+	display: inline-block;
+	
+}
+
+nav li a {
+	color: black;
+	text-decoration: none;
+	padding: .5em;
+}
+
+nav li a:hover {
+	color: white;
+	
+}
+
+nav li a:active {
+	color: #00568c;
+}
+
+nav li a:visited {
+	color: #000;
+}
+
+/*End Nav*/
+
+h1, h2 {
+	display: block;
+	text-align: center;
+}
+
+h1 {
+	color: #00568c;
+	padding: 1% 1% 0;
+}
+
+h2 {
+	color: white;
+	padding: 0 2% 2%;
+}
+
+p {
+	display: block;
+	text-align: center;
+	font-size: 1.1em;
+	padding: 2%;
+	background-color: #008e6699;
+}
+
+blockquote {
+	text-decoration: underline;
+	text-decoration-color: #008e66;
+	color: #00568c;
+}
+
+table {
+	color: #fff;
+	display: block;
+	font-size: 1em;
+	padding-left: 20%;
+	background-color: #00568c99;
+}
+
+table h2 {
+	display: block;
+	margin-left: 40%;
+}
+
+
+footer {
+	display: block;
+	text-align: center;
+	padding: 3%;
+}
+
+form {
+	display: block;
+}
+
+td {
+	padding: 4%;
+}
+
+tr {
+	padding: 4%;
+}
+
+.subRes {
+	border-radius: 8px;
+	background-color: white;
+	padding: 5%;
+}
